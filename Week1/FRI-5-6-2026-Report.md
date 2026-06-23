@@ -160,7 +160,7 @@
          print(a)
       
          def Action(failed, success):
-           if (failed > 7) and (success == @):
+           if (failed > 7) and (success == 0):
              return "Brutforce Attempts"
            elif (failed > 7) and (success >= 1):
              return "Server is Compromized"
