@@ -92,7 +92,7 @@ Detailed chronological steps of how you configured the rules in the GUI or CLI.
 - **Action:** Attempted unauthorized connection to verify the firewall blocks everything else.
     - **Command:** "ping 10.10.3.198" .
         - **Evidence:**
-          ```text[     
+          ##     
               (root@kali)-[/home/kali/Desktop]
               # ssh wazuh-user@10.10.3.177
               ssh: connect to host 10.10.3.177 port 22: Connection refused
@@ -125,7 +125,7 @@ Detailed chronological steps of how you configured the rules in the GUI or CLI.
               ^C
               --- 10.10.3.177 ping statistics ---
               4 packets transmitted, 0 received, 100% packet loss, time 3048ms]
-      ```
+          ##
 
 ## 5. Firewall & SIEM Log Observations
 Provide the security analyst view. What do the logs look like when the rule triggers?
